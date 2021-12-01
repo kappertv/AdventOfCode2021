@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Day1 - Sonardepth\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Day1 - Sonardepth\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="Day1 - Sonardepth\input.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+</Project>
