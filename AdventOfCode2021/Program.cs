@@ -1,5 +1,6 @@
 ﻿using System;
 using AdventOfCode2021.Day1Sonardepth;
+using AdventOfCode2021.Day2Dive;
 
 namespace AdventOfCode2021
 {
@@ -9,6 +10,10 @@ namespace AdventOfCode2021
         {
             Console.WriteLine("Day 1");
             new AnalyseSonarDepth().CountSonarIncreases();
+
+            Console.WriteLine("Day 2:" +
+                new Dive().MultiplyDepthAndHorizontalPosition()
+            );
         }
     }
 }

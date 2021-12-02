@@ -7,13 +7,18 @@
 
   <ItemGroup>
     <None Remove="Day1 - Sonardepth\" />
+    <None Remove="Day 2 - Navigate\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Day1 - Sonardepth\" />
+    <Folder Include="Day 2 - Dive\" />
   </ItemGroup>
   <ItemGroup>
     <None Update="Day1 - Sonardepth\input.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Day 2 - Dive\input.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
 </Project>
