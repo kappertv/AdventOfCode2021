@@ -18,10 +18,12 @@
     <None Remove="Day 3 - Binary Diagnostic\" />
     <None Remove="Shouldly" />
     <None Remove="Day 4\" />
+    <None Remove="Day 5\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Day 3 - Binary Diagnostic\" />
     <Folder Include="Day 4\" />
+    <Folder Include="Day 5\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\AdventOfCode2021\AdventOfCode2021.csproj" />
@@ -31,6 +33,12 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Update="Day 4\input.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Day 5\sampleInput.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Day 5\myinput.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
