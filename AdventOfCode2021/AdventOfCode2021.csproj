@@ -12,6 +12,7 @@
     <None Remove="Day 4\" />
     <None Remove="Day 5\" />
     <None Remove="Day 6\" />
+    <None Remove="Day 7\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Day1 - Sonardepth\" />
@@ -20,6 +21,7 @@
     <Folder Include="Day 4\" />
     <Folder Include="Day 5\" />
     <Folder Include="Day 6\" />
+    <Folder Include="Day 7\" />
   </ItemGroup>
   <ItemGroup>
     <None Update="Day1 - Sonardepth\input.txt">
