@@ -15,6 +15,7 @@ namespace AdventOfCode2021.Day7
             crabposition = crabpositions;
             max = crabposition.Max();
             min = crabposition.Min();
+            var result = Enumerable.Range(min, max - min).Select(height => (height, fuel: crabposition.Sum(i => Math.Abs(i - height)))).Min(t => t.fuel);
         }
 
         public long[] GetCheapestPositionToAllign(bool increasingconsumption)
