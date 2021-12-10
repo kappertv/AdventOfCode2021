@@ -23,6 +23,7 @@
     <None Remove="Day 7\" />
     <None Remove="Day 8\" />
     <None Remove="Day 9\" />
+    <None Remove="Day 10\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Day 3 - Binary Diagnostic\" />
@@ -32,6 +33,7 @@
     <Folder Include="Day 7\" />
     <Folder Include="Day 8\" />
     <Folder Include="Day 9\" />
+    <Folder Include="Day 10\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\AdventOfCode2021\AdventOfCode2021.csproj" />

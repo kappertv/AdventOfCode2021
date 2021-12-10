@@ -30,6 +30,14 @@ namespace Tests.Day9
         }
 
         [TestMethod]
+        public void GetThreeLargestBassins()
+        {
+            var result = _sut.GetThreeLargestBassinsMultiplied();
+
+            result.ShouldBe(1134);
+        }
+
+        [TestMethod]
         public void GetSumOfRiskLevelsMyInput()
         {
             var result = _sutmyinput.GetSumOfRiskLevels();
